@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Option Form</title>
+</head>
+<body>
+    <form action="">
+        <label for="optns">Select options: </label>
+        <select name="optns" id="optns">
+            <option value="">---Select option---</option>
+            <optgroup label="Group 1">
+                <option value="option 1">option 1</option>
+                <option value="option 2">option 2</option>
+                <option value="option 3">option 3</option>
+            </optgroup>
+            <optgroup label="Group 2">
+                <option value="option 1">option 4</option>
+                <option value="option 2">option 5</option>
+                <option value="option 3">option 6</option>
+                </optgroup>
+        </select>
+        <br>
+        <br>
+        <label for="lst">Colors List</label>
+        <br>
+        <input list="colors" name="lst" id="lst">
+        <datalist id="colors">
+            <option value="red">red</option>
+            <option value="blue">blue</option>
+            <option value="yellow">yellow</option>
+            <option value="cyan">cyan</option>
+        </datalist>
+        <br>
+        <br>
+        <input type="submit"> 
+    </form>
+</body>
+</html>
